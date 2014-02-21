@@ -1,0 +1,115 @@
+Example: 1
+
+	<?php
+
+	if(1==1)
+	echo "True";
+	else
+	echo "False";
+
+	?>  
+
+	
+Example: 2
+
+
+	<?php
+
+	if(1>1)
+	echo "True";
+	else
+	echo "False";
+
+	?> 
+
+
+Example: 3
+
+	<?php
+
+	if(1>=1)
+	echo "True";
+	else
+	echo "False";
+
+	?> 
+
+
+
+Example: 4
+
+	<?php
+
+	if(1<1)
+	echo "True";
+	else
+	echo "False";
+
+	?> 
+
+
+
+Example: 5
+
+	<?php
+
+	if(1<=1)
+	echo "True";
+	else
+	echo "False";
+
+	?> 
+
+
+Example: 6
+
+	<?php
+
+	if(1!=1)
+	echo "True";
+	else
+	echo "False";
+
+	?> 
+
+
+Example: 7
+
+	<?php
+
+	if(1!=2)
+	echo "True";
+	else
+	echo "False";
+
+	?> 
+
+
+Example: 8
+
+	<?php
+
+	$num1=1;
+	$num2=2;
+
+	if(num1 != num2)
+	echo "True";
+	else
+	echo "False";
+
+	?> 
+
+Example: 9
+
+	<?php
+
+	$num1=1;
+	$num2=1;
+
+	if(num1 != num2)
+	echo "True";
+	else
+	echo "False";
+
+	?> 
+

@@ -1,0 +1,64 @@
+Example: 1
+
+	<?php
+	$days = array("Monday","Tuesday","Wednesday","Thursday","Friday");
+	echo $days;
+	?>
+	
+Example: 2
+
+	<?php
+	$days = array("Monday","Tuesday","Wednesday","Thursday","Friday");
+	echo $days[0]; 
+	?>
+
+
+Example: 3
+
+	<?php
+	$days = array("Monday","Tuesday","Wednesday","Thursday","Friday");
+	echo $days[4]; 
+	?>
+
+Example: 4
+
+	<?php
+	$days = array
+	(
+	"Monday",
+	"Tuesday",
+	"Wednesday",
+	"Thursday",
+	"Friday"
+	);
+	?>
+
+Example: 5
+
+	<?php
+	$days = array("Monday","Tuesday","Wednesday","Thursday","Friday");
+	echo "Today is $days[0]";
+	?>
+
+
+	Example: 6
+
+	<?php
+	$ages = array("Alex"=>19,"BIlly"=>14,"Kyle"=>18);
+	echo $ages['Alex'];
+	?>
+
+
+Example: 7
+
+	<?php
+	$ages = array("Alex"=>19,"Billy"=>14,"Kyle"=>18);
+	echo $ages['Billy'];
+	?>
+
+Example: 8
+
+	<?php
+	$ages = array(1=>"Alex", 2=>"BIlly");
+	echo $ages[1];
+	?>

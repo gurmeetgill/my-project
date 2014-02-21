@@ -1,0 +1,97 @@
+Example: 1
+
+	<?php
+
+	if (1==1)
+	{
+	echo "True";
+	}
+	else
+	{
+	echo "False";
+	}
+
+	?>
+
+
+Example: 2
+
+	<?php
+
+	if (1==2)
+	{
+	echo "True";
+	}
+	else
+	{
+	echo "False";
+	}
+
+	?>
+
+
+
+Example: 3
+
+	<?php
+
+	$password="abc";
+	if ($password=="def")
+	{
+	echo "Access granted.";
+	}
+	else
+	{
+	echo "Access denied.";
+	}
+
+	?>
+
+
+Example: 4
+
+	<?php
+
+	$password="def";
+	if ($password=="def")
+	{
+	echo "Access granted.";
+	}
+	else
+	{
+	echo "Access denied.";
+	}
+
+	?>
+
+
+Example: 5
+
+	<?php
+
+	$password="def";
+	if ($password=="def")
+	echo "Access granted.";
+	$access ="Allowed";
+	else
+	echo "Access denied.";
+
+	?>
+
+
+Example: 6
+
+	<?php
+
+	$password="def";
+	if ($password=="def")
+	{
+	echo "Access granted.";
+	$access ="Allowed";
+	}
+	else
+	echo "Access denied.";
+
+	?>
+
+
